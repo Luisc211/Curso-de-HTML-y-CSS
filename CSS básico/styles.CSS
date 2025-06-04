@@ -1,0 +1,5 @@
+/*Selector por nombre del elemento, seguido de llaves, dentro de las llaves declararemos las propiedades a modificar
+y sus valores, en este caso al h1 le modificaremos la propiedad color y su valor sera verde*/
+h1 {
+  color: green;
+}

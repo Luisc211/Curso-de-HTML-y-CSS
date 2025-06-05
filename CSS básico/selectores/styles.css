@@ -1,0 +1,13 @@
+/*Selector por nombre del elemento*/
+h1 {
+  color: green;
+}
+
+/*Selctor por la clase del elemento, con un .por delante*/
+.faltante {
+  color: red;
+}
+
+#ingrediente-secreto {
+  color: maroon;
+}

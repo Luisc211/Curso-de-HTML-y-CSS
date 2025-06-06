@@ -1,0 +1,17 @@
+p {
+  color: green; /*Modifica el color de la fuente o texto*/
+  font-family: sans-serif; /*Tipografía o estilo de la fuente, las de dos palabras se deben citar con comillas, 
+  las de una sola palabra o dos palabras con guión medio se pueden citar sin comillas*/
+  font-size: 16px; /**Tamaño de la fuente, para los p predeterminado 16px, y los h1 predeterminado 32px**/
+  font-weight: 100; /*Grozor de la tipografía, existe del 100 al 900, aunque hay tipografías que tiene 2
+  grozores definidos, otras 3, otras las 9, otras solo una, ya varía con cada tipografía, entre mas alta más gruezo*/
+  /*Bold es como escribir 700, y bolder va más allá*/
+  font-style: normal; /*Inclinación del texto, normal es la predeterminada, italic es bastante inclinada, y oblique
+  es menos inclinada, también depende de cada tipografía*/
+  text-align: justify ;/*Alinea texto dentro de su contenedor, funciona más que todo en elementos de bloque, lás
+  mas importantes left, right, center, justify, end y start*/
+  text-decoration: underline overline ; /*Subrayado del texto, se pueden mezclar, arriba, en el medio y abajo, y none*/
+  line-height: 1.5 ; /*Distancia entre línea*/
+  letter-spacing: normal ; /*Espacio entre letras*/
+  text-transform: none; /* controla la capitalización del texto. permite cambiar cómo se muestran las letras sin modificar el contenido HTML original.*/
+}

@@ -1,0 +1,19 @@
+div {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  background-color: chartreuse;
+  color: black;
+}
+
+input {
+  width: 50%; /**El ancho en estos casos se suele dar en porcentaje, para que se adapte a diferentes pantallas
+  y el porcentaje es respecto a su contenedor*/
+}
+
+form{
+  width: 300px;
+}

@@ -1,0 +1,47 @@
+.formulario {
+  background-color: red; /*Fondo del elemento padre form*/
+  padding: 30px; /*Padding con shorthand, a los 4 lados, se puede dar arriba, derecha, abajo, izquierda
+  al dar 2 damos el vertical y el horizontal, al dar uno le damos a los 4 lados */
+
+  /*El padding no afecta el tamaño del contenid, aunque afecta visualmente el espacio que va a ocupar la 
+  caja contenedora*/
+}
+
+.formulario_input {
+  padding: 9px 12px; /*Separación ante los bordes del elemento padre, en este caso .formulario*/
+  width: 90%; /*Ancho del 75% respecto a su contenedor, que es .formulario*/
+  background-color: black; /*Color de fondo*/
+  color: red; /*Color del texto que el usuario ingrese*/
+  margin: 10px; /*Separación entre las cajas de los input*/
+}
+
+.formulario_submit {
+  text-transform: uppercase; /*Capitalización del texto del botón*/
+  background-color: red; /*Color de fondo*/
+  color: white; /*Color del value*/
+}
+
+.box {
+  background-color: green;
+  width: 150px;
+  height: 150px;
+  margin: 20px; /*Se separan la 3 cajas divisoras que tenemos en HTML, de lo contrario pareceria una sola larga, 
+  los margenes no se suman entre sí, si no que el más grande prevalece*/
+}
+
+.box1 {
+  background-color: purple;
+  width:  100px;
+  height: 100px;
+  margin-bottom: 20px; /*Este margen es el que se superpone respecto al margen top de la box2, más no se suma, y si
+  ambos son iguales tampoco se suman, hermanos que se separan entre sí*/
+}
+
+.box2 {
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+/*Por ejemplo nuestro elemento tiene 100px de ancho, más los 10px de margin, ocuparía 120px*/

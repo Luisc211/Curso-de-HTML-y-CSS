@@ -3,11 +3,12 @@ h1 {
   color: green;
 }
 
-/*Selctor por la clase del elemento, con un .por delante*/
+/*Selector por la clase del elemento, con un .por delante*/
 .faltante {
   color: red;
 }
 
+/*Selector por el ID del elemento, que debe ser unico*/
 #ingrediente-secreto {
   color: maroon;
 }

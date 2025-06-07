@@ -1,0 +1,25 @@
+div{
+  background-color: green;
+  width: 150px;
+  margin: auto;
+  text-align: center;
+}
+
+div {
+  border: solid blue 2px; /*Shorhand que nos permite declarar 3 propiedades en una sola línea, también se 
+  puede definir un solo borde, top, left, bottom, right*/
+  border-radius: 8px 0 ; /*Border radius si funciona aparte, el prime valor afecta diagonalmente al borde
+  superior izquierdo y al borde inferior derecho, al dar un solo valor es el mismo para los 4 bordes*/
+}
+
+input {
+  width: 60%;
+  margin-top: 5px;
+  background-color: black;
+  border-bottom: solid greenyellow 2px;
+  color: greenyellow
+}
+
+body{
+  background-color: black;
+}

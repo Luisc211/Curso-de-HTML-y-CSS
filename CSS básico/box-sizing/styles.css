@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.content-box-predeterminado {
+  /*Las dimensiones de padding, border, y margin se sumaran a los 100px del tamaño del
+  contenido del elemento*/
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  padding: 50px;
+  border: solid black 2px;
+  margin: 10px;
+}
+
+.border-box {
+  /*Ambas cajas tienen las mismas propiedades, pero esta es más pequeña, ya que el padding, el border, y el margin no se suman, si no que pasan aformar parte del tamaño, total,*/
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  padding: 50px;
+  border: solid black 2px;
+  background-color: green;
+  margin: 10px;
+}

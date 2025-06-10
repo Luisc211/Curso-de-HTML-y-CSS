@@ -1,0 +1,42 @@
+div{
+  background-color: #e9f1e2 ;
+  padding: 20px;
+  font-family: sans-serif;
+  border-left: #484848 solid 2px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 22px;
+  height: 100vh; /*viewport height y viewport width, muy usado en modales*/
+}
+
+span {
+  color: #5b5b5b  ;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+p {
+  color: #191a19;
+}
+
+/*Los pixeles son unidades de medida relativas, los centimetros, las pulgadas, los milimetros son unidades de medida 
+absolutos y suelen utiilizarse en imprimibles o en aplicaciones tactiles, las medidas absolutas tienen la limitante
+de que no son muy viables para diseños responsivos que es adpatar el sitio para que se vea en tabletas, celulares, computadores
+y que se sigan viendo lindos*/
+
+/*Las medidas en porcentaje son respecto a la caja contenedora del elemento, en este caso, body contiene a div, div contiene 
+a H1 y a p*/
+
+/*Los pocentajes no suelen darse en pading, margin, ni en tamaño de letra, ya que no es muy buena practica, se usa mas que
+todo en width de elementos*/
+
+/*Los EM toman el tamaño del elemnto padre y lo multiplican por el número que se declara, y si el padre no tiene va al abuelo
+y así sucesivamente en jerarquía, y sí no encuentra toma el valor por defecto que le da el navegador*/
+
+/*Los REM funcionan igual que el EM pero buscan el valor en el elemento raiz, en este caso HTML*/
+
+/*Para la tipografía en general EM y REM son ideales*/
+/*Para tamaños fijos, los px son ideales y los bordes*/
+/*Revisar páginas web en páginas grandes*/
